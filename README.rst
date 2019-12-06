@@ -4,11 +4,9 @@ datacoco-redis_tools
 .. image:: https://img.shields.io/pypi/v/datacoco-redis_tools.svg
    :target: https://pypi.python.org/pypi/datacoco-redis_tools
    :alt: Pypi Version
-.. image:: https://travis-ci.org/readthedocs/datacoco-redis_tools.svg?branch=master
-   :target: https://travis-ci.org/readthedocs/datacoco-redis_tools
-   :alt: Build Status
-.. image:: https://readthedocs.org/projects/sphinx-rtd-theme/badge/?version=latest
-  :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
+
+.. image:: https://readthedocs.org/projects/datacoco-redits-tools/badge/?version=latest
+  :target: http://datacoco-redits-tools.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
 datacoco-redis_tools provides basic interaction to redis database
