@@ -31,9 +31,9 @@ Quickstart
 ::
 
     self.rconn = RedisInteraction(
-        host=AWS_ACCESS_KEY,
-        port=AWS_SECRET_KEY,
-        db=SENDER,
+        host=<HOST>,
+        port=<PORT>,
+        db=<DB>,
         decode_responses=True,
     )
 
