@@ -3,12 +3,11 @@
 from setuptools import setup
 setup(
     name="datacoco-redis_tools",
-    version="0.1.0",
+    version="0.1.1",
     author="Equinox",
-    description="",
+    description="Data common code for Redis by Equinox",
     long_description=open("README.rst").read(),
     url="https://github.com/equinoxfitness/datacoco-redis_tools",
-    download_url = 'https://github.com/equinoxfitness/datacoco-redis_tools/archive/v-0.1.0.tar.gz',
     keywords = ['helper', 'db', 'common'],
     scripts=[],
     license="MIT",
