@@ -1,18 +1,29 @@
 Contributing Guidelines
 =======================
 
-Thank you for contributing to datacoco\_secretsmanager!
+When contributing to this repository, please first discuss the change
+you wish to make via issue or email with the owners of this repository
+before making a change.
+
+Issues
+------
+
+First off, issues may arise when not ran inside a virtual environment.
+Therefore, make sure to follow the installation process before
+proceeding. Issues can be created
+`here <https://github.com/equinoxfitness/datacoco-batch/issues/new>`__ and
+please put the appropriate label.
 
 Local development setup
 -----------------------
 
-datacoco-secretsmanager requires Python 3.6+
+datacoco-db requires Python 3.6+
 
 ::
 
     python3 -m venv venv
     source venv/bin/activate
-    python -m pip install -r requirements-dev.txt
+    pip install -r requirements-dev.txt
 
 Please install `pre-commit <https://pre-commit.com>`__ git hooks to use
 `Black <https://black.readthedocs.io/en/stable/>`__ autoformatting and
@@ -43,4 +54,13 @@ If you see an error indicating a missing Python version, ie:
 -  If not, install it: ``pyenv install 3.7.0``
 -  Make available to your local directory: ``pyenv local 3.7.0``
 -  Run ``tox`` again
+
+Pull Request Process
+--------------------
+
+1. Ensure any install or build dependencies are removed before the end
+   of the layer when doing a build.
+
+2. Follow the pull request template provided.
+
 
