@@ -11,13 +11,13 @@ Issues
 First off, issues may arise when not ran inside a virtual environment.
 Therefore, make sure to follow the installation process before
 proceeding. Issues can be created
-`here <https://github.com/equinoxfitness/datacoco-batch/issues/new>`__ and
+`here <https://github.com/equinoxfitness/datacoco-redis_tools/issues/new>`__ and
 please put the appropriate label.
 
 Local development setup
 -----------------------
 
-datacoco-db requires Python 3.6+
+datacoco-redis_tools requires Python 3.6+
 
 ::
 
