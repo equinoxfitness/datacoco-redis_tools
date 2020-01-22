@@ -1,14 +1,9 @@
 """
     RedisInteraction
 """
-
-import ast
-import json
-import simplejson
-
 import redis
-from redis.exceptions import ResponseError
 from past.builtins import basestring
+
 
 class RedisInteraction(object):
     def __init__(self, host, port, db, decode_responses=True):
@@ -30,10 +25,9 @@ class RedisInteraction(object):
         self.db = db
 
         # Handle string decode response which should be boolean
-        if isinstance(decode_responses, basestring) and decode_responses.lower() in (
-            "true",
-            "t",
-        ):
+        if isinstance(
+            decode_responses, basestring
+        ) and decode_responses.lower() in ("true", "t",):
             self.decode_responses = True
         else:
             self.decode_responses = False
@@ -80,7 +74,9 @@ class RedisInteraction(object):
         except Exception as e:
             if field:
                 print(
-                    "Error fetching category: {} for {}: {}".format(field, key_name, e)
+                    "Error fetching category: {} for {}: {}".format(
+                        field, key_name, e
+                    )
                 )
             else:
                 print("Error fetching {}: {}".format(key_name, e))
