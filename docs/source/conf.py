@@ -17,9 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Datacoco Redis Tools"
-copyright = "2019, Equinox"
+project = "datacoco-redis_tools"
+copyright = "2019, Equinox Fitness"
 author = "Equinox Fitness"
+
+# The full version, including alpha/beta/rc tags
+release = "0.1.0"
 
 
 # -- General configuration ---------------------------------------------------
