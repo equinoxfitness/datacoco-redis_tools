@@ -14,4 +14,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
     - Tox setup
     - Redis Tools classes
 
-[0.1.0]: https://github.com/equinoxfitness/datacoco-redis_tools/releases/tag/0.1.0
+[0.1.0]: https://github.com/equinoxfitness/datacoco-redis_tools/releases/tag/v0.1.0
