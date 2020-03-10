@@ -10,11 +10,11 @@ datacoco-redis_tools
     :alt: Documentation Status
 
 .. image:: https://api.codacy.com/project/badge/Grade/63acaa6f8c1a4bd7a58722a65217407f
-    :target: https://www.codacy.com/manual/equinoxfitness/datacoco-redis_tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinoxfitness/datacoco-redis_tools&amp;utm_campaign=Badge_Grade
+    :target: https://www.codacy.com/gh/equinoxfitness/datacoco-redis_tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinoxfitness/datacoco-redis_tools&amp;utm_campaign=Badge_Grade
     :alt: Code Quality Grade
 
 .. image:: https://api.codacy.com/project/badge/Coverage/63acaa6f8c1a4bd7a58722a65217407f
-    :target: https://www.codacy.com/manual/equinoxfitness/datacoco-redis_tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinoxfitness/datacoco-redis_tools&amp;utm_campaign=Badge_Coverage
+    :target: https://www.codacy.com/gh/equinoxfitness/datacoco-redis_tools?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinoxfitness/datacoco-redis_tools&amp;utm_campaign=Badge_Coverage
     :alt: Coverage
 
 .. image:: https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg
